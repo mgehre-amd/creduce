@@ -45,7 +45,7 @@ endif()
 # Locate flex.  Do this here because we need the package definitions in the
 # "CMakeLists.txt" files for multiple subdirs.
 #
-find_package(FLEX)
+find_package(FLEX REQUIRED)
 
 ###############################################################################
 
